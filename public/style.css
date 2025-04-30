@@ -1,0 +1,49 @@
+body {
+    background: black;
+}
+#BoxTop{
+    border: 1px solid white;
+    margin: auto;
+    height: 200px;
+}
+
+#infoBox{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#BoxDiv{
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#showBlocks{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-btn{
+    display: inline-block;
+    padding: 5px 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+.custom-btn:hover{
+    background-color: blue;   
+}
+button{
+    margin: 0 2vw;
+}
+ul{
+    padding: 0;
+}
